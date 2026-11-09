@@ -1,0 +1,18 @@
+
+== as11-cm.pdf (248 pages)
+raw: 285966 chars, 93 unique | clean: 285471 chars, 88 unique
+page junk removed (digits shown as #): []
+non-ASCII chars dropped: {'°': 146, '·': 48, '£': 4, '¢': 2, 'Ù': 1}
+
+== as11-pao.pdf (633 pages)
+raw: 1101556 chars, 99 unique | clean: 1093642 chars, 91 unique
+page junk removed (digits shown as #): ['END OF TAPE']
+non-ASCII chars dropped: {'°': 202, '·': 127, '¥': 4, '¢': 3, '±': 2, '£': 2, '€': 1, '§': 1}
+
+== as11-tec.pdf (626 pages)
+raw: 842287 chars, 104 unique | clean: 829675 chars, 93 unique
+page junk removed (digits shown as #): ['(GOSS NET #) Tape #/#', 'Page #']
+non-ASCII chars dropped: {'°': 252, '¢': 36, '·': 28, '£': 16, '¥': 16, '±': 9, '©': 5, '½': 2, '§': 1, '®': 1, '×': 1}
+
+train: 1987907 chars | val: 220881 chars
+vocab size 94: '\n !"#$%&\'()*+,-./0123456789:;<=>?ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}~'
