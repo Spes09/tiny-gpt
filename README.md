@@ -2,6 +2,8 @@
 
 A small GPT-style transformer, built from scratch and trained character by character on the Apollo 11 mission transcripts. The goal is to understand every piece, so the code is typed along with lectures, then rewritten from memory, and every experiment is logged.
 
+Built while following Andrej Karpathy's [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) lecture series.
+
 **Status:** week 1 of 4 (foundations and data). See the checklist at the bottom.
 
 ## Data
@@ -41,7 +43,7 @@ Known gaps: leftover headers in `cm` and `pao` may remain, and a few rare OCR sy
 ## Rebuild the dataset
 
 ```bash
-pip install pypdf
+pip install -r requirements.txt
 # put the three PDFs in data/, then:
 cd data
 python ../scripts/prepare_data.py
